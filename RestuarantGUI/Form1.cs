@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,7 +12,6 @@ namespace RestuarantGUI
 {
     public partial class Form1 : Form
     {
-        
         public Form1()
         {
             InitializeComponent();
@@ -31,11 +29,6 @@ namespace RestuarantGUI
         {
             if (Rice.Checked)
                 MessageBox.Show("RICE");
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Test");
         }
     }
 }

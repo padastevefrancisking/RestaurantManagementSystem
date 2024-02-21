@@ -28,30 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Sidebar = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.Chicken = new System.Windows.Forms.RadioButton();
             this.Rice = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.Sidebar.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Sidebar
+            // flowLayoutPanel1
             // 
-            this.Sidebar.AutoScroll = true;
-            this.Sidebar.Controls.Add(this.Chicken);
-            this.Sidebar.Controls.Add(this.Rice);
-            this.Sidebar.Controls.Add(this.radioButton1);
-            this.Sidebar.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.Sidebar.Location = new System.Drawing.Point(12, 12);
-            this.Sidebar.Name = "Sidebar";
-            this.Sidebar.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.Sidebar.Size = new System.Drawing.Size(175, 382);
-            this.Sidebar.TabIndex = 0;
-            this.Sidebar.WrapContents = false;
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.Chicken);
+            this.flowLayoutPanel1.Controls.Add(this.Rice);
+            this.flowLayoutPanel1.Controls.Add(this.radioButton1);
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(159, 415);
+            this.flowLayoutPanel1.TabIndex = 0;
+            this.flowLayoutPanel1.WrapContents = false;
             // 
             // Chicken
             // 
@@ -77,7 +76,7 @@
             this.Rice.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Rice.Location = new System.Drawing.Point(3, 153);
             this.Rice.Name = "Rice";
-            this.Rice.Size = new System.Drawing.Size(139, 125);
+            this.Rice.Size = new System.Drawing.Size(149, 125);
             this.Rice.TabIndex = 1;
             this.Rice.UseVisualStyleBackColor = true;
             this.Rice.CheckedChanged += new System.EventHandler(this.Rice_CheckedChanged);
@@ -134,11 +133,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(990, 658);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.Sidebar);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Form1";
-            this.Sidebar.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -147,7 +146,7 @@
 
         #endregion
 
-        private System.Windows.Forms.FlowLayoutPanel Sidebar;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.RadioButton Chicken;
         private System.Windows.Forms.RadioButton Rice;
         private System.Windows.Forms.RadioButton radioButton1;
