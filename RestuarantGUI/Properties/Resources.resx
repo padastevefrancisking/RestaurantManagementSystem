@@ -121,9 +121,6 @@
   <data name="Chimken" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Crispy-Fried-Chicken_EXPS_TOHJJ22_6445_DR-_02_03_11b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (7).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Roice" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
