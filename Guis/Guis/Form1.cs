@@ -45,6 +45,9 @@ namespace Guis
             button1.Parent = pictureBox2;
             button1.BackColor = Color.Transparent;
 
+            pictureBox6.Parent = pictureBox1;
+            pictureBox6.BackColor = Color.Transparent;
+
         }
 
         
@@ -74,10 +77,10 @@ namespace Guis
         private void pictureBox3_Paint(object sender, PaintEventArgs e)
         {
 
-            Color left = Color.FromArgb(255, 19, 61, 35);
-            Color right = Color.FromArgb(255, 34, 78, 54);
-            LinearGradientMode direction = LinearGradientMode.Horizontal;
-            LinearGradientBrush brush = new LinearGradientBrush(pictureBox3.ClientRectangle, left, right, direction);
+            Color up = Color.FromArgb(255, 39, 63, 26);
+            Color down = Color.FromArgb(255, 45, 82, 50);
+            LinearGradientMode direction = LinearGradientMode.Vertical;
+            LinearGradientBrush brush = new LinearGradientBrush(pictureBox3.ClientRectangle, up, down, direction);
 
             e.Graphics.FillRectangle(brush, pictureBox3.ClientRectangle);
         }
@@ -86,5 +89,7 @@ namespace Guis
         {
             MessageBox.Show("I AM HERE");
         }
+
+      
     }
 }

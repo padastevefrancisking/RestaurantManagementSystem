@@ -89,5 +89,11 @@
   <ItemGroup>
     <None Include="Resources\youtube-play-button-computer-icons-clip-art-help-d4cdf96b61399ba00430ee23bdfb0cf91.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast-food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2024-02-25-19_55_30-firefox.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

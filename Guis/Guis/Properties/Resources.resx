@@ -118,10 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="youtube-play-button-computer-icons-clip-art-help-d4cdf96b61399ba00430ee23bdfb0cf91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\youtube-play-button-computer-icons-clip-art-help-d4cdf96b61399ba00430ee23bdfb0cf91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fast-food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fast-food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2024-02-25-16_34_14-Guis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2024-02-25-16_34_14-Guis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="youtube-play-button-computer-icons-clip-art-help-d4cdf96b61399ba00430ee23bdfb0cf91" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\youtube-play-button-computer-icons-clip-art-help-d4cdf96b61399ba00430ee23bdfb0cf91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2024-02-25-19_55_30-firefox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-02-25-19_55_30-firefox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

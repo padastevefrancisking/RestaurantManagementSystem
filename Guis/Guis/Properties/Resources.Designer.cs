@@ -73,6 +73,26 @@ namespace Guis.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2024_02_25_19_55_30_firefox {
+            get {
+                object obj = ResourceManager.GetObject("2024-02-25-19_55_30-firefox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fast_food {
+            get {
+                object obj = ResourceManager.GetObject("fast-food", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap youtube_play_button_computer_icons_clip_art_help_d4cdf96b61399ba00430ee23bdfb0cf91 {
             get {
                 object obj = ResourceManager.GetObject("youtube-play-button-computer-icons-clip-art-help-d4cdf96b61399ba00430ee23bdfb0cf9" +
