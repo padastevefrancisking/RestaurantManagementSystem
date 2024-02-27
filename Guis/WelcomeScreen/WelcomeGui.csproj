@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E669A5F0-924A-43D3-A71B-D4BDBDA03AD1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Guis</RootNamespace>
-    <AssemblyName>Guis</AssemblyName>
+    <RootNamespace>WelcomeGui</RootNamespace>
+    <AssemblyName>WelcomeGui</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

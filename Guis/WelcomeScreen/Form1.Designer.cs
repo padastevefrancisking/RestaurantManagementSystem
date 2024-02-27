@@ -33,6 +33,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.ResName = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.OrderLabel = new RoundBorderLabel.RoundLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -40,8 +41,6 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.KioskVidPlayer = new AxWMPLib.AxWindowsMediaPlayer();
-            this.OrderLabel = new RoundBorderLabel.RoundLabel();
             this.InfoPanel = new FadePanel();
             this.fadePanel5 = new FadePanel();
             this.label6 = new System.Windows.Forms.Label();
@@ -55,6 +54,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.KioskVidPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -64,7 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.KioskVidPlayer)).BeginInit();
             this.InfoPanel.SuspendLayout();
             this.fadePanel5.SuspendLayout();
             this.fadePanel4.SuspendLayout();
@@ -72,6 +71,7 @@
             this.fadePanel2.SuspendLayout();
             this.fadePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KioskVidPlayer)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -125,7 +125,7 @@
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox3.BackColor = System.Drawing.Color.Black;
-            this.pictureBox3.BackgroundImage = global::Guis.Properties.Resources._2024_02_25_19_55_30_firefox;
+            this.pictureBox3.BackgroundImage = global::WelcomeGui.Properties.Resources._2024_02_25_19_55_30_firefox;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(12, 37);
             this.pictureBox3.Name = "pictureBox3";
@@ -133,11 +133,27 @@
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
+            // OrderLabel
+            // 
+            this.OrderLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.OrderLabel.BackColor = System.Drawing.Color.Transparent;
+            this.OrderLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.OrderLabel.Font = new System.Drawing.Font("Saira SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OrderLabel.ForeColor = System.Drawing.Color.White;
+            this.OrderLabel.Location = new System.Drawing.Point(12, 468);
+            this.OrderLabel.Name = "OrderLabel";
+            this.OrderLabel.Size = new System.Drawing.Size(157, 40);
+            this.OrderLabel.TabIndex = 1;
+            this.OrderLabel.Text = "ORDER HERE\r\n";
+            this.OrderLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OrderLabel.Click += new System.EventHandler(this.OrderLabel_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox1.BackgroundImage = global::Guis.Properties.Resources.gradient_1_;
+            this.pictureBox1.BackgroundImage = global::WelcomeGui.Properties.Resources.gradient_1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
@@ -164,8 +180,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.BackgroundImage = global::Guis.Properties.Resources.youtube_play_button_computer_icons_clip_art_help_d4cdf96b61399ba00430ee23bdfb0cf91;
+            this.pictureBox5.BackgroundImage = global::WelcomeGui.Properties.Resources.youtube_play_button_computer_icons_clip_art_help_d4cdf96b61399ba00430ee23bdfb0cf91;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Location = new System.Drawing.Point(756, 3);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(41, 38);
@@ -187,7 +204,7 @@
             // 
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.BackgroundImage = global::Guis.Properties.Resources.gradient_2_;
+            this.pictureBox4.BackgroundImage = global::WelcomeGui.Properties.Resources.gradient_2_;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(0, 0);
             this.pictureBox4.Name = "pictureBox4";
@@ -197,7 +214,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::Guis.Properties.Resources.gradient_2_;
+            this.pictureBox2.BackgroundImage = global::WelcomeGui.Properties.Resources.gradient_2_;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(178, 41);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
@@ -218,35 +235,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(616, 541);
             this.panel3.TabIndex = 5;
-            // 
-            // KioskVidPlayer
-            // 
-            this.KioskVidPlayer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.KioskVidPlayer.Enabled = true;
-            this.KioskVidPlayer.Location = new System.Drawing.Point(-6, -3);
-            this.KioskVidPlayer.Margin = new System.Windows.Forms.Padding(0);
-            this.KioskVidPlayer.Name = "KioskVidPlayer";
-            this.KioskVidPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("KioskVidPlayer.OcxState")));
-            this.KioskVidPlayer.Size = new System.Drawing.Size(625, 547);
-            this.KioskVidPlayer.TabIndex = 6;
-            // 
-            // OrderLabel
-            // 
-            this.OrderLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.OrderLabel.BackColor = System.Drawing.Color.Transparent;
-            this.OrderLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.OrderLabel.Font = new System.Drawing.Font("Saira SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OrderLabel.ForeColor = System.Drawing.Color.White;
-            this.OrderLabel.Location = new System.Drawing.Point(12, 468);
-            this.OrderLabel.Name = "OrderLabel";
-            this.OrderLabel.Size = new System.Drawing.Size(157, 40);
-            this.OrderLabel.TabIndex = 1;
-            this.OrderLabel.Text = "ORDER HERE\r\n";
-            this.OrderLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.OrderLabel.Click += new System.EventHandler(this.OrderLabel_Click);
             // 
             // InfoPanel
             // 
@@ -396,7 +384,7 @@
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox6.Image = global::Guis.Properties.Resources._2024_02_26_11_22_10_firefox;
+            this.pictureBox6.Image = global::WelcomeGui.Properties.Resources._2024_02_26_11_22_10_firefox;
             this.pictureBox6.Location = new System.Drawing.Point(49, 60);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(64, 453);
@@ -415,6 +403,19 @@
             this.label1.Size = new System.Drawing.Size(196, 30);
             this.label1.TabIndex = 1;
             this.label1.Text = "Kiosk Ordering Process";
+            // 
+            // KioskVidPlayer
+            // 
+            this.KioskVidPlayer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.KioskVidPlayer.Enabled = true;
+            this.KioskVidPlayer.Location = new System.Drawing.Point(-6, -3);
+            this.KioskVidPlayer.Margin = new System.Windows.Forms.Padding(0);
+            this.KioskVidPlayer.Name = "KioskVidPlayer";
+            this.KioskVidPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("KioskVidPlayer.OcxState")));
+            this.KioskVidPlayer.Size = new System.Drawing.Size(625, 547);
+            this.KioskVidPlayer.TabIndex = 6;
             // 
             // Form1
             // 
@@ -439,7 +440,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.KioskVidPlayer)).EndInit();
             this.InfoPanel.ResumeLayout(false);
             this.InfoPanel.PerformLayout();
             this.fadePanel5.ResumeLayout(false);
@@ -448,6 +448,7 @@
             this.fadePanel2.ResumeLayout(false);
             this.fadePanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KioskVidPlayer)).EndInit();
             this.ResumeLayout(false);
 
         }
